@@ -14,6 +14,7 @@ var mySqlConnectionString = builder.Configuration.GetConnectionString("DefaultCo
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(mySqlConnectionString, ServerVersion.AutoDetect(mySqlConnectionString)));
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
 
