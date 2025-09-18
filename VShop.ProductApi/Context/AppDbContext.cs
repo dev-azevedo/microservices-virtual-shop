@@ -28,7 +28,7 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Product>().Property(p => p.Price).IsRequired().HasPrecision(12, 2);
         modelBuilder.Entity<Product>().Property(p => p.Description).IsRequired().HasMaxLength(255);
         modelBuilder.Entity<Product>().Property(p => p.Stock).IsRequired();
-        modelBuilder.Entity<Product>().Property(p => p.ImageUrl).IsRequired().HasMaxLength(255);
+        modelBuilder.Entity<Product>().Property(p => p.ImageUrl).HasMaxLength(255);
         modelBuilder.Entity<Product>().HasOne(p => p.Category).WithMany(c => c.Products);
 
 
