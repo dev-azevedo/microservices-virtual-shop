@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.ProductApi", "VShop.ProductApi\VShop.ProductApi.csproj", "{F592CD34-32C8-4ACE-96CF-9195BE33AE79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.Web", "VShop.Web\VShop.Web.csproj", "{3F4F52C1-5CC3-4CC9-9EE5-1B7B377CB536}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{F592CD34-32C8-4ACE-96CF-9195BE33AE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F592CD34-32C8-4ACE-96CF-9195BE33AE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F592CD34-32C8-4ACE-96CF-9195BE33AE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4F52C1-5CC3-4CC9-9EE5-1B7B377CB536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4F52C1-5CC3-4CC9-9EE5-1B7B377CB536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4F52C1-5CC3-4CC9-9EE5-1B7B377CB536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4F52C1-5CC3-4CC9-9EE5-1B7B377CB536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
